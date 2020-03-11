@@ -74,6 +74,13 @@ module.exports = {
                 symbolId: 'icon-[name]'
             })
             .end()
+        config.module
+            .rule('fonts')
+            .use('url-loader')
+            .tap(option => {
+                option.fallback.options.name = 'static/fonts/[name].[hash:8].[ext]'
+                return option
+            })
 
         // set preserveWhitespace
         config.module
@@ -111,6 +118,9 @@ module.exports = {
             )
     },
     css: {
-        extract: false,
-    }
+        sourceMap: true,
+        extract: {
+            filename: 'style/[name].css'
+        }
+    },
 }

@@ -1,11 +1,13 @@
 // 导入颜色选择器组件
 import colorPicker from '../components/color-picker'
 import tagsView2 from '../components/TagsView2'
+import dzb from '../components/dzb'
 
 // 存储组件列表
 const components = [
     colorPicker,
-    tagsView2
+    tagsView2,
+    dzb
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -26,5 +28,6 @@ export default {
     install,
     // 以下是具体的组件列表
     colorPicker,
-    tagsView2
+    tagsView2,
+    dzb
 }
