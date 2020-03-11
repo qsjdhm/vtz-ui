@@ -1,12 +1,12 @@
 <template lang="html">
     <div>
-        <span></span>
+        <span>16165</span>
     </div>
 </template>
 
 <script>
 export default {
-  name: 'Dzb',
+  name: 'DianZi',
   data () {
     return {
     }
@@ -14,7 +14,7 @@ export default {
   methods: {
   },
   mounted () {
-    console.info("Dzb")
+    console.info("DianZi")
   }
 }
 </script>

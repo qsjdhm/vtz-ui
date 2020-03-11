@@ -1,0 +1,7 @@
+/* 添加字体库 */
+@font-face {
+    font-family: 'DS-Digital';  //重命名字体名
+    src: url('./DS-Digital.ttf');  //引入字体
+    font-weight: normal;
+    font-style: normal;
+}
