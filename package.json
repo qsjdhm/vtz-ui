@@ -1,7 +1,7 @@
 {
     "name": "vtz-ui",
     "private": false,
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "lib/vtz-ui.umd.min.js",
     "description": "UI",
     "author": "VTZ <qsjdhm@163.com>",
